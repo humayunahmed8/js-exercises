@@ -72,3 +72,22 @@ console.log(Number.parseFloat("10 years")); // 10
 
 let convertToInteger = parseInt("10 years");
 console.log(convertToInteger);
+
+// Javascript Arrays
+// Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+
+const cars = ["Saab", "Volvo", "BMW"];
+// const cars = new Array("Saab", "Volvo", "BMW");
+cars[0] = "test";
+console.log(cars);
+console.log(typeof cars);
+
+// Accessing Array Elements
+console.log(cars[1]);
+
+const fruits = ['Banana', 'Graps', 'Orange'];
+let checkTypeOfArray = fruits.toString();
+console.log(typeof checkTypeOfArray); //string
+console.log(fruits.toString());
+
+
