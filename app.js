@@ -111,3 +111,6 @@ function addNumber() {
   displayNumbers();
 }
 
+// Array at()
+console.log(numbers.at(1));
+
