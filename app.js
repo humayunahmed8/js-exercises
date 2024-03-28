@@ -129,7 +129,12 @@ console.log(numbers.push(3));
 // Array shift()
 // The shift() method removes the first array element and "shifts" all other elements to a lower index
 console.log(numbers.shift());
+
+// Array unshift()
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements
+console.log(numbers.unshift("test"));
 console.log(numbers);
+
 
 
 
