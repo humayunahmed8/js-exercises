@@ -118,4 +118,17 @@ console.log(numbers.at(1));
 console.log(numbers.join("*")); // 1*2*3
 
 
+// Array Popping and Pushing
+// The pop() method removes the last element from an array
+console.log(numbers.pop()); 
+
+// Array push()
+// The push() method adds a new element to an array (at the end)
+console.log(numbers.push(3));
+console.log(numbers);
+
+
+
+
+
 
