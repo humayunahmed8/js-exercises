@@ -60,3 +60,8 @@ console.log(isNaN(checkIsNaN)); //true
 // The Number() Method
 let Num1 =  Number("10");
 console.log(typeof Num1);
+
+// Number.parseFloat() parses a string and returns a number.
+// If the number cannot be converted, NaN (Not a Number) is returned.
+
+console.log(Number.parseFloat("10 years")); // 10
