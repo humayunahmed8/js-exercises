@@ -168,12 +168,17 @@ studentID.splice(1, 0, "Test", "Test Two");
 */
 console.log(studentID);
 
+
 // Array toSpliced
 const months = ["Jan", "Feb", "Mar", "Apr"];
 const spliced = months.toSpliced(0, 2);
 console.log(spliced); //['Mar', 'Apr']
 
 
+// Array slice()
+const country = ['BD', 'AF', 'Turkey', 'US'];
+const countrySplice = country.slice(1,3);
+console.log(countrySplice); // ['AF', 'Turkey']
 
 
 
