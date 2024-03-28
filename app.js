@@ -100,3 +100,14 @@ for(let i = 0; i < product.length; i ++) {
   console.log(product[i]);
 }
 
+const numbers = [1, 2, 3];
+
+function displayNumbers() {
+  document.getElementById("showNumber").innerHTML = numbers.join(", ");
+}
+
+function addNumber() {
+  numbers.push(numbers.length + 1); // Add the next number
+  displayNumbers();
+}
+
