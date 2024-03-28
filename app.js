@@ -29,3 +29,10 @@ for(let i = 0; i < tags.length; i++) {
 html+= `</ul>`;
 
 document.getElementById("printHTML").innerHTML = html;
+
+
+// JavaScript Numbers (Exponent Notation)
+let exponentNumber = 123e5;
+let exponentNumberTwo = 123e-5;
+console.log(exponentNumber); //12300000
+console.log(exponentNumberTwo); //0.00123
