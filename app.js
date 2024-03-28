@@ -14,5 +14,18 @@ let vat = 50;
 let vatAmount = `${(price * vat) / 100}`; // Calculate the VAT amount using template string
 let subtotal = `${price + parseFloat(vatAmount)}`; // Calculate the subtotal using template string
 
-// console.log(`VAT Amount: ${vatAmount}`);
 console.log(`Subtotal: ${subtotal}`);
+
+
+// HTML Templates
+let header = `Template String`;
+const tags = ['one', 'two', 'three'];
+
+let html = `<h2>${header}</h2><ul>`;
+for(let i = 0; i < tags.length; i++) {
+  html += `<li>${tags[i]}</li>`;
+  console.log();
+}
+html+= `</ul>`;
+
+document.getElementById("printHTML").innerHTML = html;
