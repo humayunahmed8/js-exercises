@@ -168,6 +168,12 @@ studentID.splice(1, 0, "Test", "Test Two");
 */
 console.log(studentID);
 
+// Array toSpliced
+const months = ["Jan", "Feb", "Mar", "Apr"];
+const spliced = months.toSpliced(0, 2);
+console.log(spliced); //['Mar', 'Apr']
+
+
 
 
 
