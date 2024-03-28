@@ -91,5 +91,12 @@ console.log(typeof checkTypeOfArray); //string
 console.log(fruits.toString());
 
 console.log(fruits.length); // 3
+console.log(fruits.sort); 
 
+// Looping array element
+const product = ['WPDM', 'EVR', 'FormyChat'];
+
+for(let i = 0; i < product.length; i ++) {
+  console.log(product[i]);
+}
 
