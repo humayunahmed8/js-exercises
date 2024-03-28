@@ -114,3 +114,8 @@ function addNumber() {
 // Array at()
 console.log(numbers.at(1));
 
+// Array Join
+console.log(numbers.join("*")); // 1*2*3
+
+
+
