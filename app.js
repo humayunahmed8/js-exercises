@@ -145,6 +145,10 @@ const arrayConcat = group1.concat(group2, group3);
 console.log(arrayConcat); // ['Banana', 'Graps', 'Orange', 'Lemon', 'Tomato', 'Apple', 'Watermelon', 'Tomato', 'Apple']
 
 
+// Array copyWithin()
+// copyWithin() copies array elements to another position in an array, overwriting existing values
+console.log(group1.copyWithin(2, 0));
+
 
 
 
