@@ -125,8 +125,11 @@ console.log(numbers.pop());
 // Array push()
 // The push() method adds a new element to an array (at the end)
 console.log(numbers.push(3));
-console.log(numbers);
 
+// Array shift()
+// The shift() method removes the first array element and "shifts" all other elements to a lower index
+console.log(numbers.shift());
+console.log(numbers);
 
 
 
