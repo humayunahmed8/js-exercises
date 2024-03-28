@@ -160,7 +160,12 @@ console.log(arrayFlat);
 
 // Array splice()
 const studentID = ['One', 'Two', 'Three', 'Four'];
-studentID.splice(1, 2, "Test", "Test Two");
+studentID.splice(1, 0, "Test", "Test Two");
+/* 
+ * The first parameter (2) defines the position where new elements should be added (spliced in)
+ * The second parameter (0) defines how many elements should be removed.
+ * The rest of the parameters ("Test" , "Test Two") define the new elements to be added.
+*/
 console.log(studentID);
 
 
