@@ -90,4 +90,6 @@ let checkTypeOfArray = fruits.toString();
 console.log(typeof checkTypeOfArray); //string
 console.log(fruits.toString());
 
+console.log(fruits.length); // 3
+
 
