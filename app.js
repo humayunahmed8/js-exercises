@@ -65,3 +65,10 @@ console.log(typeof Num1);
 // If the number cannot be converted, NaN (Not a Number) is returned.
 
 console.log(Number.parseFloat("10 years")); // 10
+
+
+// The parseInt() Method 
+// parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned
+
+let convertToInteger = parseInt("10 years");
+console.log(convertToInteger);
