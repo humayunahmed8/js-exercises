@@ -135,6 +135,14 @@ console.log(numbers.shift());
 console.log(numbers.unshift("test"));
 console.log(numbers);
 
+// Array concat()
+// The concat() method creates a new array by merging (concatenating) existing arrays
+
+const group1 = ['Banana', 'Graps', 'Orange'];
+const group2 = ['Lemon', 'Tomato', 'Apple'];
+const group3 = ['Watermelon', 'Tomato', 'Apple'];
+const arrayConcat = group1.concat(group2, group3); 
+console.log(arrayConcat); // ['Banana', 'Graps', 'Orange', 'Lemon', 'Tomato', 'Apple', 'Watermelon', 'Tomato', 'Apple']
 
 
 
