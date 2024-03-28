@@ -150,5 +150,12 @@ console.log(arrayConcat); // ['Banana', 'Graps', 'Orange', 'Lemon', 'Tomato', 'A
 console.log(group1.copyWithin(2, 0));
 
 
+// Array flat()
+// The flat() method creates a new array with sub-array elements concatenated to a specified depth
+const multiArray = [[1,2],[3,4],[5,6]];
+const arrayFlat = multiArray.flat();
+console.log(arrayFlat);
+
+
 
 
