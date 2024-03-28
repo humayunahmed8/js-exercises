@@ -158,6 +158,12 @@ const arrayFlat = multiArray.flat();
 console.log(arrayFlat);
 
 
+// Array splice()
+const studentID = ['One', 'Two', 'Three', 'Four'];
+studentID.splice(1, 2, "Test", "Test Two");
+console.log(studentID);
+
+
 
 
 
