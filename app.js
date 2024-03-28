@@ -55,3 +55,8 @@ console.log(isNaN(checkIsNaN)); //true
 // Hexadecimal is base 16. Decimal is base 10. Octal is base 8. Binary is base 2.
 
 // Numbers can also be defined as objects with the keyword new : let y = new Number(123);
+
+
+// The Number() Method
+let Num1 =  Number("10");
+console.log(typeof Num1);
