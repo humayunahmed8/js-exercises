@@ -96,7 +96,7 @@ console.log(mergeArray);
 */
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const sortAlphabetically = fruits.toSorted();
+const sortAlphabetically = fruits.sort();
 console.log(sortAlphabetically); // ['Apple', 'Banana', 'Mango', 'Orange']
 console.log(fruits);
 
@@ -110,5 +110,16 @@ console.log(fruits);
 const arrayReverse = fruits.reverse();
 
 console.log(arrayReverse); //['Orange', 'Mango', 'Banana', 'Apple']
+
+
+/* 
+ * একটি array কে alphabetically sort করার জন্য 
+ * array.toSorted()
+ * তবে, এটি অরিজিনাল array এর কি গুলোকে চেঞ্জ করেনা 
+*/
+const months = ["Jan", "Feb", "Mar", "Apr"];
+const sorted = months.toSorted();
+console.log(sorted); // ['Apr', 'Feb', 'Jan', 'Mar']
+console.log(months); // ['Jan', 'Feb', 'Mar', 'Apr'] 
 
 
