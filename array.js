@@ -99,3 +99,16 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 const sortAlphabetically = fruits.toSorted();
 console.log(sortAlphabetically); // ['Apple', 'Banana', 'Mango', 'Orange']
 console.log(fruits);
+
+
+/* 
+ * একটি array কে বিপরীত দিক থেকে ঘুরিয়ে দেখার জন্য 
+ * array.reverse()
+ * 
+*/
+
+const arrayReverse = fruits.reverse();
+
+console.log(arrayReverse); //['Orange', 'Mango', 'Banana', 'Apple']
+
+
