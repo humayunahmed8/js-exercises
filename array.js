@@ -123,3 +123,17 @@ console.log(sorted); // ['Apr', 'Feb', 'Jan', 'Mar']
 console.log(months); // ['Jan', 'Feb', 'Mar', 'Apr'] 
 
 
+/* 
+ * একটি array এর numeric ভ্যালু গুলোকে ascending/descending করে সাজাতে   
+ * array.sort() এর সাথে কমপেয়ার ফাংশন ব্যবহার করা হয় 
+ * এক্ষেত্রে এই কম্পেয়ার ফাংশন এর এর ভ্যালু গুলোকে দুইটি দুইটি করে কম্পেয়ার করে 
+*/
+const num1 = [12, 5, 10, 9];
+const numSort = num1.sort(
+  function(a, b) {
+    return b - a;
+  }
+);
+console.log(numSort);
+
+
