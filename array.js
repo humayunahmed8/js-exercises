@@ -89,3 +89,13 @@ const mergeArray = district.concat(districtTwo);
 console.log(mergeArray);
 
 
+
+/* একটি array কে alphabetically sort করার জন্য 
+ * array.sort()
+ * 
+*/
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const sortAlphabetically = fruits.toSorted();
+console.log(sortAlphabetically); // ['Apple', 'Banana', 'Mango', 'Orange']
+console.log(fruits);
