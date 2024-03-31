@@ -75,3 +75,17 @@ const addFirstItemFromArray = district.unshift("Pabna");
 
 console.log(district); //['Pabna', 'Cumilla', 'Chattagram', 'Rajshahi']
 
+
+
+/* দুইটি array কে মার্জ করে একটি করার জন্য 
+ * array.concat() 
+ * অর্থাৎ concat মেথড ইউস করে দুইটি array কে জোড়া দিয়ে একটি করা হয় 
+*/
+
+const districtTwo = ['Khulna', 'Bogura', 'Kishoreganj'];
+
+const mergeArray = district.concat(districtTwo);
+
+console.log(mergeArray);
+
+
