@@ -32,3 +32,15 @@ const fruits = ["test", "test", "Apple", "Orange", "Apple", "Mango"];
 let position = fruits.indexOf("Apple") + 2;
 
 console.log(position);
+
+
+// JavaScript Array Iteration : forEach() Method
+
+let txt = "";
+const result = [40, 45, 33, 65, 55];
+result.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+function myFunction(currentValue, currentIndex, arr) {
+  txt += currentIndex + " - " + currentValue + " - " + arr + "<br>";
+}
+
