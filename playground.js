@@ -56,4 +56,4 @@ for(let x of f) {
 const months = ["Januar", "Februar", "Mar", "April"];
 const myMonths = months.with(3, "March");
 
-document.getElementById("demo").innerHTML = myMonths;
+document.getElementById("demoThree").innerHTML = myMonths;
