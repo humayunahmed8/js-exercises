@@ -25,3 +25,10 @@ console.log(numbersLastIndex); // 5
 // Array Includes
 const checkValue = numbers.includes(51);
 console.log(checkValue); // false
+
+
+// Array indexOf
+const fruits = ["test", "test", "Apple", "Orange", "Apple", "Mango"];
+let position = fruits.indexOf("Apple") + 2;
+
+console.log(position);
