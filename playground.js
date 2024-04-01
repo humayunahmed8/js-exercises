@@ -13,7 +13,7 @@ const numbersIndex = numbers.findIndex(x => x > 8);
 console.log(numbersIndex); // 2
 
 
-// Find last index number of an array 
+// Find last value of an array 
 const numbersLastIndex = numbers.findLast(x => x > 8);
 console.log(numbersLastIndex); // 50
 
