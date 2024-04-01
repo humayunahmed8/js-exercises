@@ -44,3 +44,10 @@ function myFunction(currentValue, currentIndex, arr) {
   txt += currentIndex + " - " + currentValue + " - " + arr + "<br>";
 }
 
+// JavaScript Array Iteration : entries() Method
+const items = ['one', 'two', 'three'];
+const f = items.entries();
+for(let x of f) {
+  // console.log(x)
+  document.getElementById("demoTwo").innerHTML += x + "<br>";
+}
