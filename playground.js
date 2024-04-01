@@ -14,8 +14,12 @@ console.log(numbersIndex); // 2
 
 
 // Find last value of an array 
-const numbersLastIndex = numbers.findLast(x => x > 8);
-console.log(numbersLastIndex); // 50
+const numbersLastValue = numbers.findLast(x => x > 8);
+console.log(numbersLastValue); // 50
+
+// Find last index of an array 
+const numbersLastIndex = numbers.findLastIndex(x => x > 8);
+console.log(numbersLastIndex); // 5
 
 
 // Array Includes
