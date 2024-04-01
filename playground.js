@@ -51,3 +51,9 @@ for(let x of f) {
   // console.log(x)
   document.getElementById("demoTwo").innerHTML += x + "<br>";
 }
+
+// JavaScript Array Iteration : with() Method
+const months = ["Januar", "Februar", "Mar", "April"];
+const myMonths = months.with(3, "March");
+
+document.getElementById("demo").innerHTML = myMonths;
