@@ -57,3 +57,10 @@ const months = ["Januar", "Februar", "Mar", "April"];
 const myMonths = months.with(3, "March");
 
 document.getElementById("demoThree").innerHTML = myMonths;
+
+
+// JavaScript Array Spread (...)
+const num1 = ["Jan", "Feb", "Mar"];
+const num2 = ["Apr", "May", "Jun"];
+const total = [...num1, ...num2]
+document.getElementById("demoFour").innerHTML = total;
