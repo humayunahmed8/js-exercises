@@ -39,3 +39,13 @@ let currentMonth = month[dates.getMonth()];
 console.log(currentMonth);
 
 
+// Set method of date object
+
+// setFullYear 
+const dateObject = new Date();
+dateObject.setFullYear(2023);
+
+console.log(dateObject);
+
+
+
