@@ -52,6 +52,10 @@ console.log(dateObject);
 dateObject.setMonth(9);
 console.log(dateObject);
 
+// setDate 
+dateObject.setDate(15);
+console.log(dateObject);
+
 
 
 
