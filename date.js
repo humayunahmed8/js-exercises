@@ -30,3 +30,12 @@ console.log(birthDate.getDate()); //2
 console.log(birthDate.getMonth()); //3
 
 
+// Get the customized month name from an array 
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const dates = new Date();
+
+let currentMonth = month[dates.getMonth()];
+
+console.log(currentMonth);
+
+
