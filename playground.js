@@ -92,3 +92,12 @@ const booksWholeArray = booksCount.reduce((prevValue, currentValue, currentIndex
 console.log((booksWholeArray)); // [1, 2, 3]
 
 
+// Array filter 
+const fewNumbers = [45, 4, 9, 16, 25];
+const filterHigherThanEighteen = fewNumbers.filter(function myFunction(currentValue) {
+  return currentValue > 18;
+})
+console.log(filterHigherThanEighteen);
+
+
+
