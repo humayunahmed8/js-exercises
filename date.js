@@ -47,5 +47,11 @@ dateObject.setFullYear(2023);
 
 console.log(dateObject);
 
+// setMonth
+// Note that months count from 0. December is month 11
+dateObject.setMonth(9);
+console.log(dateObject);
+
+
 
 
