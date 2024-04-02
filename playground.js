@@ -75,3 +75,10 @@ const sumBooks = booksCount.reduce((prevValue, currentValue) => {
 })
 
 console.log(sumBooks); // prevValue = undefined; undefined + 1 + 2 + 3 = 6
+
+// reduce() currentIndex
+const booksCurrentIndex = booksCount.reduce((prevValue, currentValue, currentIndex) => {
+  return currentIndex;
+})
+
+console.log((booksCurrentIndex)); // 2
