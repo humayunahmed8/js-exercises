@@ -26,6 +26,7 @@ console.log(ml);
 const birthDate = new Date();
 console.log(birthDate.getDate()); //2
 
-
+// Get the Month 
+console.log(birthDate.getMonth()); //3
 
 
