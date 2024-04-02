@@ -64,3 +64,14 @@ const num1 = ["Jan", "Feb", "Mar"];
 const num2 = ["Apr", "May", "Jun"];
 const total = [...num1, ...num2]
 document.getElementById("demoFour").innerHTML = total;
+
+
+// Javascript Array reduce() Method
+
+const booksCount = [1, 2, 3];
+
+const sumBooks = booksCount.reduce((prevValue, currentValue) => {
+  return prevValue + currentValue;
+})
+
+console.log(sumBooks); // prevValue = undefined; undefined + 1 + 2 + 3 = 6
