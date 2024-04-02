@@ -65,4 +65,8 @@ console.log(dateObject);
 dateObject.setHours(15);
 console.log(dateObject);
 
+// setSeconds 
+dateObject.setSeconds(50);
+console.log(dateObject);
+
 
