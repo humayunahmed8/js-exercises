@@ -99,5 +99,12 @@ const filterHigherThanEighteen = fewNumbers.filter(function myFunction(currentVa
 })
 console.log(filterHigherThanEighteen);
 
+// Array some()
+const numbersList = [45, 4, 9, 16, 25];
+const isNumber = fewNumbers.some((value, index, arr) => {
+  return value > 90;
+})
+console.log(isNumber); // false
+
 
 
