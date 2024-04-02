@@ -61,4 +61,8 @@ dateObject.setMilliseconds(9999);
 console.log(dateObject);
 
 
+// setHours 
+dateObject.setHours(15);
+console.log(dateObject);
+
 
