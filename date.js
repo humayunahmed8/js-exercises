@@ -56,6 +56,9 @@ console.log(dateObject);
 dateObject.setDate(15);
 console.log(dateObject);
 
+//setMilliseconds
+dateObject.setMilliseconds(9999);
+console.log(dateObject);
 
 
 
