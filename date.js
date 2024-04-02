@@ -22,4 +22,9 @@ const ml = new Date(100000000000);
 console.log(ml);
 
 
+// Date Methods : Today Date is - April 2, 2024
+const birthDate = new Date();
+console.log(birthDate.getDate());
+
+
 
