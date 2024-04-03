@@ -69,6 +69,9 @@ const numberToInteger = [
   {name: "Math.max(0, 150, 30, 20, -8, -200);", value: Math.max(0, 150, 30, 20, -8, -200)}, // Find maximum value
 
   {name: "Math.random();", value: Math.random()}, // Provide random number
+  {name: "Math.random() (0-9)", value: Math.floor(Math.random() * 10)}, 
+  {name: "Math.random() (0-100)", value: Math.floor(Math.random() * 101)}, 
+  {name: "Math.random() (1-10)", value: Math.floor(Math.random() * 10) + 1}, 
 ]
 
 function numberToIntegerRoundFigure() {
