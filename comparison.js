@@ -72,3 +72,15 @@ if(3 >= 4) {
 const age = 17;
 const checkAge = age >= 18 ? "You're 18+" : "You are under 18";
 console.log(checkAge); // You are under 18
+
+
+
+// Optional Chaining Operator
+// The ?. operator returns undefined if an object is undefined or null (instead of throwing an error)
+const bio = {
+  fullName : "Ahmed",
+  age : 26,
+  hobby : "Coding"
+}
+
+console.log(bio?.name);
