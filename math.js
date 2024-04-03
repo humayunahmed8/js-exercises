@@ -94,3 +94,19 @@ function showRandom() {
 }
 
 showRandom();
+
+// Boolean Values
+console.log(Boolean(10 > 9)); // true 
+console.log(new Boolean(10>5)) // can be defined as an object with new keyword
+console.log(Boolean(100)); //true
+console.log(Boolean(3.14)); //true
+console.log(Boolean(-15)); //true 
+console.log(Boolean("hello")); //true 
+console.log(Boolean('false')); //true 
+console.log(Boolean(false)); //false 
+console.log(Boolean(15 + 10 + 12)); //true 
+console.log(Boolean(-0)); //false 
+console.log(Boolean(0)); //false 
+console.log(Boolean(10 / "Hallo")); //false 
+console.log(Boolean(false == false)); //true 
+console.log(Boolean(false === false)); //true 
