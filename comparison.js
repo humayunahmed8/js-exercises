@@ -91,4 +91,4 @@ console.log(bio?.name);
 const myFullName = null;
 const myAage = 26;
 
-console.log(myFullName ?? myAage);
+console.log(myFullName ?? myAage); // 26, because first one is null
