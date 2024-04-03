@@ -31,3 +31,63 @@ function generateHTML() {
 }
 
 generateHTML();
+
+
+/*
+ * There are 4 common methods to round a number to an integer
+ * Math.round(x), Math.ceil(x), Math.floor(x), Math.trunc(x)
+ *
+*/
+
+const numberToInteger = [
+  {name: "Math.round 4.6", value: Math.round(4.6)}, 
+  {name: "Math.round 4.5", value: Math.round(4.5)},
+  {name: "Math.round 4.4", value: Math.round(4.4)},
+
+  {name: "Math.ceil 4.9", value: Math.ceil(4.9)}, // rounded up
+  {name: "Math.ceil 4.1", value: Math.ceil(4.1)},
+  {name: "Math.ceil 4.0", value: Math.ceil(4.0)},
+  {name: "Math.ceil 3.9", value: Math.ceil(3.9)},
+
+  {name: "Math.floor 3.9", value: Math.floor(3.9)}, // rounded down
+  {name: "Math.floor 3.1", value: Math.floor(3.1)},
+  {name: "Math.floor -4.2", value: Math.floor(-4.2)},
+
+  {name: "Math.trunc -4.2", value: Math.trunc(-4.2)}, // Returns only integer part
+
+  {name: "Math.sign 0", value: Math.sign(0)}, // Returns for positive value : 1, negative value : -1, 0 if number is 0
+  {name: "Math.sign 1", value: Math.sign(1)},
+  {name: "Math.sign -4", value: Math.sign(-4)},
+
+  {name: "Math.pow 8/2", value: Math.pow(8, 2)}, // 8 power 2, that means 8*8 = 64
+  
+  {name: "Math.sqrt 64", value: Math.sqrt(64)}, // square root, that means 64 = 8*8
+  
+  {name: "Math.abs -4.2", value: Math.abs(-4.2)}, // it will provide absolute positive value from the negative value
+  
+  {name: "Math.min(0, 150, 30, 20, -8, -200);", value: Math.min(0, 150, 30, 20, -8, -200)}, // Find minimum value
+  {name: "Math.max(0, 150, 30, 20, -8, -200);", value: Math.max(0, 150, 30, 20, -8, -200)}, // Find maximum value
+
+  {name: "Math.random();", value: Math.random()}, // Provide random number
+]
+
+function numberToIntegerRoundFigure() {
+  let htmlContent = "";
+  numberToInteger.map((value) => {
+    htmlContent += `<p><b>${value.name}</b> : ${value.value}</p>`
+  })
+  document.getElementById("numberToIntegerRoundFigure").innerHTML = htmlContent;
+}
+
+numberToIntegerRoundFigure();
+
+
+
+// Show random number when click
+function showRandom() {
+  document.getElementById("random").addEventListener("click", function() {
+    document.getElementById("showRandomNumber").innerHTML = numberToInteger[Math.floor(Math.random() * numberToInteger.length)].value;
+  })
+}
+
+showRandom();
