@@ -84,3 +84,11 @@ const bio = {
 }
 
 console.log(bio?.name);
+
+
+// Nullish Coalescing Operator (??)
+// The ?? operator returns the first argument if it is not nullish (null or undefined).
+const myFullName = null;
+const myAage = 26;
+
+console.log(myFullName ?? myAage);
