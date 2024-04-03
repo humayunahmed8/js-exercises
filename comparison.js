@@ -67,3 +67,8 @@ if(3 >= 4) {
 }else {
   console.log("Wrong"); // Wrong
 }
+
+// Ternary Operator 
+const age = 17;
+const checkAge = age >= 18 ? "You're 18+" : "You are under 18";
+console.log(checkAge); // You are under 18
