@@ -62,3 +62,10 @@ while(i < 10) {
   console.log(i);
   i++;
 }
+
+// while loop with an array
+let countStart = 0;
+while(numbList[countStart]) {
+  console.log(numbList[countStart]);
+  countStart++;
+}
