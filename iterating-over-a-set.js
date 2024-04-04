@@ -61,3 +61,6 @@ letters.forEach((currentValue) => {
 for(x of letters.values()){
   console.log(x);
 }
+
+// Check how much items in a Set / Its will work array length 
+console.log(letters.size); // 4
