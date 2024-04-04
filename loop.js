@@ -22,3 +22,13 @@ for(let key in bookList) {
 }
 
 document.getElementById("loopTwo").innerHTML = plainText;
+
+
+// For Each loop
+const numbList = ["5", "7", "4", "17"];
+let txt = "";
+const iterateNumberList = numbList.forEach((currentValue, currentIndex, array) => {
+  txt += currentValue + "<br>";
+})
+
+document.getElementById("numbList").innerHTML = txt;
