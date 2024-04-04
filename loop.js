@@ -69,3 +69,14 @@ while(numbList[countStart]) {
   console.log(numbList[countStart]);
   countStart++;
 }
+
+// while loop with break keyword
+let rollCountStart = 0;
+while(rollCountStart < 10) {
+  if(rollCountStart === 3) {
+    console.log(rollCountStart);
+    break;
+  }
+  console.log(rollCountStart);
+  rollCountStart++;
+}
