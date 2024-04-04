@@ -37,3 +37,13 @@ document.getElementById("numbList").innerHTML = txt;
 for(let x in numbList) {
   console.log(numbList[x]);
 }
+
+// Retrive only specific object item in for in loop
+const person = {fname: "John", lname: "Doe", age: 25};
+let ages;
+for(let x in person) {
+  if(x === 'age') {
+    ages = person[x];
+  }
+}
+console.log(ages);
