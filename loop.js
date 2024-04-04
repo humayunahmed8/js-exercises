@@ -80,3 +80,17 @@ while(rollCountStart < 10) {
   console.log(rollCountStart);
   rollCountStart++;
 }
+
+
+// Create a Map with for of loop
+const char = new Map([ // Here, new for create intance of object. map is an object 
+  ["a", 1], 
+  ["b", 2],
+  ["c", 3],
+  ["d", 4],
+  ["e", 5],
+])
+
+for(const x of char) {
+  console.log(x);
+}
