@@ -47,3 +47,11 @@ for(let x in person) {
   }
 }
 console.log(ages);
+
+
+// For of loop
+let theText = "";
+for(x of numbList) {
+  theText += x + "<br>";
+}
+document.getElementById("numbListTwo").innerHTML = theText;
