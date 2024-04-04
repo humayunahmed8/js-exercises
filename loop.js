@@ -32,3 +32,8 @@ const iterateNumberList = numbList.forEach((currentValue, currentIndex, array) =
 })
 
 document.getElementById("numbList").innerHTML = txt;
+
+// For In Loop
+for(let x in numbList) {
+  console.log(numbList[x]);
+}
