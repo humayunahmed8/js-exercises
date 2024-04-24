@@ -68,3 +68,21 @@ console.log(person); //{ firstName: 'Alice', lastName: 'Doe', age: 25 }
 
 delete person["age"];
 console.log(person);  //{ firstName: 'Alice', lastName: 'Doe', age: 25 }
+
+
+// Nested Object 
+const myObj = {
+  name:"Ryan",
+  age: 22,
+  cars: {
+    car1: "Ford",
+    car2: "BMW",
+    car3: "Fiat"
+  }
+}
+
+// Access a property from the nested object 
+console.log(myObj.cars.car1);
+console.log(myObj.cars.car2);
+console.log(myObj["cars"].car3);
+console.log(myObj["cars"]["car3"]);
