@@ -43,3 +43,11 @@ child.meow = function() {
 console.log(child.greet());
 console.log(child.meow());
 
+
+
+// Accessing JavaScript Properties
+console.log(person.firstName);
+console.log(person["firstName"]);
+
+const fName = "firstName";
+console.log(person[fName]);
