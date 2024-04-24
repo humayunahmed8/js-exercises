@@ -29,6 +29,10 @@ const parent = {
 const child = Object.create(parent);
 
 child.name = "Jhon";
+child.meow = function() {
+  return 'Meow!'; 
+};
 
 console.log(child.greet());
+console.log(child.meow());
 
