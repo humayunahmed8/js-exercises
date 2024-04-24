@@ -51,3 +51,12 @@ console.log(person["firstName"]);
 
 const fName = "firstName";
 console.log(person[fName]);
+
+// Iterate an Object with for/in Loop
+let text = "";
+for(let i in person) {
+  // text = text + person[i];
+  text += person[i] + ""; 
+}
+
+console.log(text);
