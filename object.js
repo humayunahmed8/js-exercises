@@ -105,3 +105,16 @@ for(let x in myObject.cars) {
     console.log(myObject.cars[x].models[y])
   }
 }
+
+// Object Method
+const profession = {
+  name: "Engineer",
+  experience: 6,
+  role: function() {
+    return `You are the software ${this.name}. You are responsible develop software`;
+  }
+} 
+
+// Accessing Object Methods
+console.log(profession.role());
+console.log(profession.role().toUpperCase()); //Using built in method with object method
