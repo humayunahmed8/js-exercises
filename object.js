@@ -66,5 +66,5 @@ console.log(text);
 person.age = 25;
 console.log(person); //{ firstName: 'Alice', lastName: 'Doe', age: 25 }
 
-delete person.age;
+delete person["age"];
 console.log(person);  //{ firstName: 'Alice', lastName: 'Doe', age: 25 }
