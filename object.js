@@ -16,3 +16,19 @@ newObj.lastName = "Doe";
 newObj.age = 30;
 
 console.log(newObj);
+
+
+// Create an object using Object.create()
+
+const parent = {
+  greet: function() {
+    return `Hello, My name is ${this.name}`;
+  }
+}
+
+const child = Object.create(parent);
+
+child.name = "Jhon";
+
+console.log(child.greet());
+
