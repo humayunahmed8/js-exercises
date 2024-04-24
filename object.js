@@ -2,9 +2,16 @@
 const person = {
   firstName: "Jhon",
   lastName: "Doe",
-  age: 30 
+  age: 30,
 }
 
+console.log(person);
+
+
+
+// Object are mutable. that means we can change the value of object properties
+person.firstName = "Alice";
+console.log(person.firstName)
 console.log(person);
 
 
