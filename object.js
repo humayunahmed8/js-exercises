@@ -1,3 +1,4 @@
+// Create Object with Object Literal : {}
 const person = {
   firstName: "Jhon",
   lastName: "Doe",
