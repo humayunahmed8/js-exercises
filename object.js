@@ -118,3 +118,14 @@ const profession = {
 // Accessing Object Methods
 console.log(profession.role());
 console.log(profession.role().toUpperCase()); //Using built in method with object method
+
+// Object Display
+const persons = {
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+
+// console.log(Object.values(persons));
+const myValue = JSON.stringify(persons);
+console.log(myValue);
