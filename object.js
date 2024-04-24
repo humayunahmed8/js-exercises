@@ -86,3 +86,22 @@ console.log(myObj.cars.car1);
 console.log(myObj.cars.car2);
 console.log(myObj["cars"].car3);
 console.log(myObj["cars"]["car3"]);
+
+// Nested Arrays and Objects
+const myObject = {
+  name: "John",
+  age: 30,
+  cars: [
+    {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+    {name:"BMW", models:["320", "X3", "X5"]},
+    {name:"Fiat", models:["500", "Panda"]}
+  ]
+}
+
+// Iterate Nested Arrays and Object with Nested Loop
+for(let x in myObject.cars) {
+  // console.log(myObj.cars[x].name);
+  for (let y in myObject.cars[x].models) {
+    console.log(myObject.cars[x].models[y])
+  }
+}
