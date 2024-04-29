@@ -8,3 +8,21 @@ const person = {
 Object.defineProperty(person, "language", {value: "BN"});
 
 console.log(person.language);
+
+const personTwo = {};
+
+// Adding Multiple Object Properties 
+Object.defineProperties(personTwo, {
+    firstName: {
+      value: "Ahmed",
+    },
+    lastName: {
+      value: "Rahim",
+    },
+    language: {
+      value: "Test"
+    }
+  }
+)
+
+console.log(personTwo.language); // Test 
