@@ -1,3 +1,4 @@
+// "use strict";
 // Javascript Function 
 // console.log(myFunction(5, 2));
 
@@ -63,3 +64,31 @@ const numbers = {
 console.log(x(numbers));
 
 console.log(numbers.one);
+
+
+
+
+
+function test() {
+  return this;
+}
+
+console.dir(test());
+
+
+const person = {
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + " " + city + " " + country;
+  }
+}
+const person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+const person2 = {
+  firstName:"Mary",
+  lastName: "Doe"
+}
+console.log(person.fullName.apply(person2)); 
+console.log(person.fullName.call(person1, "Oslo", "Norway")); 
+console.log(person.fullName.apply(person1, ["Oslo", "Norway"])); 
