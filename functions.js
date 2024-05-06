@@ -41,10 +41,25 @@ function myFunction(a, b) {
 // console.log(myFunction(5, 5));
 // const myFunction = (a, b) => a * b;
 
-const x = function(x, y) {
-  return x * y;
+// const x = function(x, y) {
+//   return x * y;
+// }
+// let a = 5;
+// let b = 10;
+// const result = x(a, b);
+// console.log(result);
+
+
+
+const x = function(x) {
+  x.one = 5;
+  return x.one * x.five;
 }
-let a = 5;
-let b = 10;
-const result = x(a, b);
-console.log(result);
+
+const numbers = {
+  one: 1,
+  five: 5
+}
+console.log(x(numbers));
+
+console.log(numbers.one);
