@@ -1,15 +1,23 @@
 class Car {
-  constructor(name, year) {
-    this.name = name;
-    this.year = year;
+  constructor(brand) {
+    this.carname = brand;
   }
-  run(speed) {
-    console.log(`${this.name} is running and it's speed : ${speed}`)
+  static present(car) {
+    return 'I have a car';
   }
 }
 
-const Car1 = new Car("Audi", 2000);
-console.log(Car1.run(100));
-// console.log(Car1.year);
-// const Car2 = new Car("BMW", 2001);
-// console.log(Car2.name);
+// class Model extends Car {
+//   constructor(brand, mod) {
+//     super(brand);
+//     this.model = mod;
+//   }
+//   show() {
+//     return this.present() + ', it is a ' + this.model;
+//   }
+// }
+
+// let myCar = new Model("Ford", "Mustang");
+// let Car1 = new Car("Ford");
+
+console.log(Car.present());
